@@ -1,0 +1,115 @@
+img {
+    width: 500px;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+h1 {
+    margin-top: -40px;
+    margin-bottom: 0;
+    font: bold 30px Arial;
+    color: #555555;
+    text-align: center;
+}
+
+p {
+    color: #555555;
+    font: lighter medium Arial;
+    text-align: center;
+}
+
+form {
+    background-color: #ffffff;
+    color: #606062;
+    font: bold 15px Arial;
+    padding: 25px;
+    border-radius: 5px;
+    border: #cccccc solid 1px;
+    width: 50%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+form > label {
+    font: lighter 15px Arial;
+    display: block;
+    margin-bottom: 3px;
+}
+
+form > input {
+    font: lighter 15px Arial;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    border-style: none;
+    border: #cccccc solid 1px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: none;
+    color: #606062;
+    transition: 0.5s;
+}
+
+form > input:hover {
+    cursor: text;
+    border-color: rgba(0, 80, 150, 0.75);
+}
+
+form > input:focus {
+    outline: none;
+}
+
+form > select {
+    font: lighter 15px Arial;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    border-style: none;
+    border: #cccccc solid 1px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: none;
+    color: #606062;
+    transition: 0.5s;
+}
+
+form > select:hover {
+    cursor: pointer;
+    border-color: rgba(0, 80, 150, 0.75);
+}
+
+form > select:focus {
+    outline: none;
+}
+
+form > button {
+    margin-top: 15px;
+    color: #ffffff;
+    font: bold 15px Arial;
+    height: 40px;
+    width: 100%;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(0, 80, 150, 0.75);
+    transition: 0.5s;
+}
+
+form > button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 95, 178);
+}
+span {
+    font: lighter 12px Arial;
+    display: block;
+    margin-bottom: 3px;
+    text-align: center;
+    color: #555555;
+}
